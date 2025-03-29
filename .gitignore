@@ -1,5 +1,30 @@
+# Node.js dependencies
 node_modules/
+
+# Environment variables (secret keys, API keys, database credentials)
 .env
-package-lock.json
+
+# Log files
 logs/
-DS_Store
+*.log
+
+# Debugging files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Lock files
+package-lock.json
+yarn.lock
